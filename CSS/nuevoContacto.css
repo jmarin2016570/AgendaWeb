@@ -1,0 +1,242 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;  
+    font-family: 'Times New Roman', Times, serif;
+    height: 100px;
+}
+.logoKinal{
+    position: absolute;
+    border-radius: 50%;
+    top: -50px;
+    left: 195px;
+    height: 100px;
+
+}
+
+.perfilUsuario{
+    position: absolute;
+    height: 150px;
+    width: 250px;
+    border: 3px black ridge;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    left: 1625px;
+    top: 150px;
+    padding: 5px;
+    background-color: white;
+}
+
+#fotoPerfilUsuario{
+    position: absolute;
+    height: 75px;
+    width: 75px;
+    top: -30px;
+    left: 95px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px black;
+
+}
+
+#tituloPerfil{
+    position: absolute;
+    top: 50px;
+    left: 35px;
+
+}
+
+#tituloPerfil b{
+    position: relative;
+    top: 20px;
+    left: 10px;
+
+}
+
+.botonPerfil{
+    position: absolute;
+    height: 30px;
+    width: 110px;
+    top: 75%;
+    left: 15px;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 7px;
+    border: 3px black ridge;
+}  
+
+.botonSesion{
+    position: absolute;
+    height: 30px;
+    width: 110px;
+    top: 75%;
+    left: 135px;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 7px;
+    border: 3px black ridge;
+}
+.botonSesion:hover{
+        background-color:#10CAB3 ;
+        transition: 1s;
+}
+
+.botonPerfil:hover{
+    background-color:#10CAB3 ;
+    transition: 1s;
+}
+
+
+
+.botonSesion a{
+text-decoration: none;
+color: black;
+}
+.botonPerfil a{
+text-decoration: none;
+color: black;
+}
+.agregarUsuario{
+    width: 500px;
+    height: 500px;
+    background: white;
+    color: black;
+    position: absolute;
+    top: 50%; /*Lugar de la pantalla*/
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border: 2px;
+    border: black 8px ridge; /* Para un borde visible*/
+}
+
+.imagenFormulario{
+    height: 75px;
+    width: 75px;
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px black;
+    left: 375px;
+    top: 50px;
+}
+.botonRegreso{
+    color: black;
+    width: 160px;
+    height: 45px;
+    top: 400px;
+   left: 50px;
+ 
+   position: absolute;
+   background-color: #10CAB3;
+   transition: 2s;
+   border-radius: 20px;
+   box-shadow: 0px 0px 10px black; /*Sirve para darle sombra a una figura*/
+   border: none;
+
+}
+.botonRegreso:hover{
+    background-color: white;
+    transition: 1s;
+    border-radius: 20px;
+    width: 190px;
+}
+.botonRegreso>a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.botonAgregar{
+    color: black;
+    width: 160px;
+    height: 45px;
+    top: 400px; 
+    left: 270px;
+   position: absolute;
+   background-color: #10CAB3;
+   transition: 2s;
+   border-radius: 20px;
+   box-shadow: 0px 0px 10px black; /*Sirve para darle sombra a una figura*/
+   border: none;
+
+}
+.botonAgregar:hover{
+    background-color: white;
+    transition: 1s;
+    border-radius: 20px;
+    width: 190px;
+}
+
+.botonAgregar>a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.titulo1{ 
+    margin-left: 30px;
+}
+
+#titulo2{
+    position: relative;
+    top: -20px;
+    left: 100px;
+}
+
+.agregarUsuario #input1[type="text"]{
+    position: relative;
+    left: 20px;
+}
+
+.agregarUsuario #input2[type="text"]{
+    position: relative;
+    left: 12px;
+}
+
+.agregarUsuario #input3[type="text"]{
+    position: relative;
+    left: 6px;
+}
+.agregarUsuario #input4[type="text"]{
+    position: relative;
+    left: 24px;
+}
+
+.agregarUsuario #input5[type="text"]{
+    position: relative;
+    left: 24px;
+}
+
+.agregarUsuario #input6[type="number"]{
+    position: relative;
+    left: 24px;
+}
+header{
+    position: relative; 
+    margin-top: -10px;
+    width: 100%;
+    height: 80px;
+    padding: 10;
+    clear: both;
+    text-align: left;
+    color: white;
+    background-color: black;
+    border: white 3px ridge;
+    font-size: 14px;
+
+}    
+
+footer{
+    position: absolute; 
+    margin-top: -10px;
+    width: 100%;
+    padding: 50px;
+    clear: both;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border: white 3px ridge;
+    top: 90%;
+    font-size: 14px;
+}    
+   

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar usuario</title>
+    <link rel="stylesheet" href="CSS/nuevoContacto.css">
+</head>
+    <body bgcolor="ADEEFA">
+        <header>
+            <h1 class="titulo1"> Agregar Contacto</h1> 
+        </header>
+        <div class="perfilUsuario">
+            <img id="fotoPerfilUsuario" src="imagenesLocal/miFoto.jpeg" alt="">
+            <nav id="tituloPerfil"><b>José David Marin Mijangos</b></nav>
+                <button class="botonPerfil" disabled="true"><a href="perfilUsuario.html"> <b> Ver Perfil </b></a></button>
+                <button class="botonSesion" disabled="true"><a href="index.html"> <b> Cerrar Sesión</b></a></button>
+            
+        </div>
+        <div class="agregarUsuario">
+             <img class="logoKinal" src="imagenesLocal/logoKinal2.png" alt="logoKinal">
+             <img class="imagenFormulario" src="imagenesLocal/imagenFormulario.png" alt="">
+             <h1 id="titulo2">Ingresar Datos</h1>
+            <form >
+                <!--Usuario-->
+                 <label for="nombreUsuario">Nombre de Usuario :</label> 
+                <input id="input1" type="text" placeholder=""> <br><br>
+                <label for="nombreUsuario">Teléfono  del Usuario :</label> 
+                 <input id="input2" type="text" placeholder=""> <br><br>
+                 <label for="nombreUsuario">Dirección  del Usuario :</label> 
+                <input id="input3" type="text" placeholder=""> <br><br>
+                 <label for="nombreUsuario">Correo del Usuario :</label> 
+                <input id="input4" type="text" placeholder=""> <br><br>
+                <label  for="nombreUsuario">Genero del Usuario :</label> 
+                <input id="input5" type="text" placeholder=""> <br><br>
+                <label  for="edadPersona">Edad de la Persona :</label> 
+                <input id="input6" type="number" placeholder=""> <br><br>
+
+                <button class="botonAgregar" disabled="true" ><a >Agregar </a></button>  <!--Desabilite el boton para que no se refresque cada vez que se hace click--> 
+              <button class="botonRegreso" disabled="true" ><a href="contactos.html">Regresar </a></button>
+        </form>
+     </div>
+   
+     <!--Pie de pagina-->
+     <footer>
+        Centro Educativo Tecnico Laboral Laboral KINAL <br>
+        José David Marin Mijangos <br>
+        Email: jmarin-2016570@kinal.edu.gt
+
+    </footer>
+   </body>
+ </html>

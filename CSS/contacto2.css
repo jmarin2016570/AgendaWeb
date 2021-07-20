@@ -1,0 +1,266 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;  
+    font-family: 'Times New Roman', Times, serif;
+    height: 100px;
+}
+.logoKinal{
+    position: absolute;
+    border-radius: 50%;
+    top: -50px;
+    left: 175px;
+    height: 100px;
+
+}
+
+.perfilUsuario{
+    position: absolute;
+    height: 150px;
+    width: 250px;
+    border: 3px black ridge;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    left: 1625px;
+    top: 150px;
+    padding: 5px;
+    background-color: white;
+}
+
+#fotoPerfilUsuario{
+    position: absolute;
+    height: 75px;
+    width: 75px;
+    top: -30px;
+    left: 95px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px black;
+
+}
+
+#tituloPerfil{
+    position: absolute;
+    top: 50px;
+    left: 35px;
+
+}
+
+#tituloPerfil b{
+    position: relative;
+    top: 20px;
+    left: 10px;
+
+}
+
+.botonPerfil{
+    position: absolute;
+    height: 30px;
+    width: 110px;
+    top: 75%;
+    left: 15px;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 7px;
+    border: 3px black ridge;
+}  
+
+.botonSesion{
+    position: absolute;
+    height: 30px;
+    width: 110px;
+    top: 75%;
+    left: 135px;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 7px;
+    border: 3px black ridge;
+}
+.botonSesion:hover{
+        background-color:#10CAB3 ;
+        transition: 1s;
+}
+
+.botonPerfil:hover{
+    background-color:#10CAB3 ;
+    transition: 1s;
+}
+
+
+
+.botonSesion a{
+text-decoration: none;
+color: black;
+}
+.botonPerfil a{
+text-decoration: none;
+color: black;
+}
+.listaDeContacto{
+    background-color: white;
+    border: 5px ridge black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    width: 400px;
+    height: 260px;
+    transform: translate(-50%, -50%);
+    padding: 100px 40px;
+    border-radius: 20px;
+    margin: 0px;
+    padding-left: 0px;
+    
+    
+ }
+
+ #imagenPerfil{
+    position: absolute;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px;
+    top:50px;
+    left: 320px;
+}
+
+
+#datosPersona1{
+    position: absolute;
+    list-style: none;
+    top: 110px;   
+ }
+
+ #nombrePersona{
+    position: relative;
+   border-radius: 10px;
+   border: black solid 1px;
+  text-align: center;
+  background-color: white ; 
+  box-shadow: 0px 0px 5px black;
+ 
+}
+#nombrePersona:hover{
+   background-color: #10CAB3  ; 
+}
+#direccionPersona{
+    position: relative;
+   border-radius: 10px;
+   border: black solid 1px;
+   position: relative;
+   text-align: center;
+   background-color: white ;
+   box-shadow: 0px 0px 5px black;
+   
+}
+#direccionPersona:hover{
+   background-color: #10CAB3  ; 
+}
+#telefonoPersopna{
+   border-radius: 10px;
+   border: black solid 1px;
+   position: relative;
+   text-align: center;
+   background-color: white ;
+   box-shadow: 0px 0px 5px black;
+}
+#telefonoPersopna:hover{
+   background-color: #10CAB3  ; 
+}
+#generoPersona{
+   border-radius: 10px;
+   border: black solid 1px;
+   position: relative;
+   text-align: center;
+   background-color: white ;
+   box-shadow: 0px 0px 5px black;
+}
+#generoPersona:hover{
+   background-color: #10CAB3  ; 
+}
+#edadPersona{
+   border-radius: 10px;
+   border: black solid 1px;
+   position: relative;
+   text-align: center;
+   background-color: white ;
+   box-shadow: 0px 0px 5px black;
+}
+#edadPersona:hover{
+   background-color: #10CAB3  ; 
+}
+#correoPersona{
+   border-radius: 10px;
+   border: black solid 1px;
+   position: relative;
+   text-align: center;
+   background-color: white ;
+   box-shadow: 0px 0px 5px black;
+   
+}
+#correoPersona:hover{
+   background-color: #10CAB3  ; 
+}
+
+ 
+
+#titulo1{
+    position: relative;
+    top: -60px;
+    left: 40px;
+}
+
+.botonRegreso{
+    color: black;
+    width: 160px;
+    height: 45px;
+   top: 400px;
+   left: 150px;
+   position: absolute;
+   background-color: #10CAB3;
+   transition: 2s;
+   border-radius: 20px;
+   box-shadow: 0px 0px 10px black; /*Sirve para darle sombra a una figura*/
+   border: none;
+
+}
+.botonRegreso:hover{
+    background-color: white;
+    transition: 1s;
+    border-radius: 20px;
+    width: 190px;
+}
+.botonRegreso>a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+header{
+    position: relative; /*Se mueve por la pagina*/
+    margin-top: -10px;
+    width: 100%;
+    padding: 10;
+    clear: both;
+    text-align: left;
+    color: white;
+    background-color: black;
+    border: white 3px ridge;
+   
+
+}   
+    
+footer{
+    position: absolute; 
+    margin-top: -10px;
+    width: 100%;
+    padding: 50px;
+    clear: both;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border: white 3px ridge;
+    top: 90%;
+    font-size: 14px;
+}  
+
+.tituloPrincipal{
+    margin-left: 30px;
+}
